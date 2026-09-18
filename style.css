@@ -1,0 +1,40 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* Caixa branca em volta da lista */
+.container {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    color: #333333;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Remove as bolinhas padrão da lista */
+.lista-simples {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de cada item da lista */
+.lista-simples li {
+    background-color: #e0e7ff;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 4px;
+    color: #3730a3;
+    font-weight: bold;
+    text-align: center;
+}
